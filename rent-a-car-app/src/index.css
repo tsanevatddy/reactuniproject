@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;1,400&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Alegreya', serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, .7)), url('../public/images/backrnd.jpg');
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.bs1 {
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(10, 108, 100);
+}
+
+p {
+  margin: 5px !important;
+  text-align: left;
+  padding: 1px;
+}
+
+.spinner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+}
+
+.btn1 {
+  box-shadow: none !important;
+  background-color: white !important;
+  color: orangered;
+  border: 1px solid orangered;
+  border-radius: 5px;
+  padding: 7px 11px !important;
+  width: fit-content;
+  outline: none;
+}
+
+.btn1:focus {
+  border: none;
+}
+
+.header .ant-btn {
+  box-shadow: none !important;
+  background-color: white !important;
+  color: orangered;
+  border: 1px solid orangered;
+  border-radius: 5px;
+  padding: 7px 11px !important;
+  width: fit-content;
+  outline: none;
+
+}
+
+.header {
+  padding: 10px;
+  background: rgba(0, 63, 63, 0.208);
+  padding-bottom: 10px;
+  height: 90px;
+
+}
+
+.content {
+  min-height: 90vh;
+  align-items: center;
+  align-content: center;
+
+
+
+}
+
+
+/* moga da promenq tova */
+.car {
+  border-radius: 6px;
+  margin-top: 100px;
+  height: 170px;
+  transition: 0.3s;
+}
+
+.car:hover {
+  height: 220px;
+}
+
+.car:hover>.card-info {
+  opacity: 1;
+  transform: translateY(-45px);
+}
+
+.carimg {
+  height: 190px;
+  width: auto;
+  border-radius: 5px;
+  transform: translateY(-50px);
+
+}
+
+.card-info {
+  transform: translateY(-200px);
+  opacity: 0;
+  transition: 0.5s;
+}
+
+
+.login {
+  background: #7a6f6f;
+  min-height: 100vh;
+}
+
+
+.ant-form-vertical .ant-form-item-label>label {
+  color: rgba(255, 255, 255, 0.875);
+  font-size: 130%;
+}
+
+.login h1 {
+  font-weight: bold;
+  top: 15%;
+  left: 20%;
+  left: 30%;
+  position: absolute;
+  color: rgb(26 1 1 / 88%);
+  font-size: 300%;
+}
+
+.login-form {
+  background-color: #bfaeaed1;
+}
+
+.login-form input {
+  background: #5c5454;
+  border: none;
+  color: white;
+  opacity: 0.6;
+}
+
+.login-image-car {
+  width: auto;
+  margin-top: 180px;
+  height: 45vh;
+  margin-left: 25%;
+}
+
+.login-logo {
+  text-align: center;
+}
+
+.form-container {
+  margin-top: 120px;
+}
+
+.login a {
+  color: white !important;
+  opacity: 0.3;
+  text-decoration: none;
+  font-size: 115%;
+}
+
+
+
+.carImg {
+  height: 400px;
+  width: auto;
+  border-radius: 10px;
+}
+
+svg {
+  height: 20px !important;
+  width: 20px !important;
+}

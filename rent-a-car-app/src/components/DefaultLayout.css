@@ -1,0 +1,12 @@
+.logo-image {
+    width: auto;
+    max-height: 70px;
+    position: absolute;
+
+    right: 76%;
+}
+
+.ant-divider-horizontal {
+    background: #8e7f7f;
+    min-height: 3px;
+}
